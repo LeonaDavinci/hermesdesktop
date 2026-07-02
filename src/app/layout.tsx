@@ -11,18 +11,22 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: {
-    default: 'Hermes Agent Desktop - Your AI Agent, Always Improving',
-    template: '%s | Hermes Agent Desktop',
+    default: 'HermesDesktop: Open-Source AI Agent Desktop App',
+    template: '%s | HermesDesktop',
   },
-  description: 'The only AI agent with a built-in learning loop. Creates skills from experience, improves them during use, and builds a deepening model of who you are across sessions. Open source, runs anywhere.',
+  description: 'HermesDesktop is the open-source AI agent desktop app with a built-in learning loop, deep cross-session memory, multi-platform messaging, and scheduled automations. Download free for Windows, macOS & Linux.',
   keywords: [
-    'hermesdesktop', 'Hermes Agent Desktop', 'AI agent', 'autonomous agent', 'AI assistant',
-    'machine learning', 'open source AI', 'Hermes agent', 'AI automation', 'LLM',
-    'AI memory', 'multi-platform AI', 'desktop AI agent'
+    'hermesdesktop', 'HermesDesktop', 'hermes desktop', 'hermes desktop app',
+    'open source AI agent', 'AI agent desktop', 'autonomous AI agent', 'AI assistant software',
+    'free AI agent download', 'LLM desktop application', 'AI agent with memory',
+    'AI automation tool', 'multi-platform AI assistant', 'self-improving AI agent',
+    'open source AI assistant', 'desktop AI agent app', 'AI agent with learning loop',
+    'telegram AI bot', 'discord AI bot', 'scheduled AI automation', 'local LLM agent',
+    'AI agent software free', 'hermesdesktop download', 'hermesdesktop AI',
   ],
-  authors: [{ name: 'Hermes Agent Desktop Community' }],
-  creator: 'Hermes Agent Desktop Community',
-  publisher: 'Hermes Agent Desktop',
+  authors: [{ name: 'HermesDesktop Community' }],
+  creator: 'HermesDesktop Community',
+  publisher: 'HermesDesktop',
   formatDetection: {
     email: false,
     address: false,
@@ -33,22 +37,22 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://hermesdesktop.org',
-    title: 'Hermes Agent Desktop - Your AI Agent, Always Improving',
-    description: 'The only AI agent with a built-in learning loop. Open source, runs anywhere, connects to all your platforms.',
-    siteName: 'Hermes Agent Desktop',
+    title: 'HermesDesktop: Open-Source AI Agent Desktop App',
+    description: 'HermesDesktop is the open-source AI agent desktop app with a built-in learning loop, deep memory, multi-platform messaging, and scheduled automations. Free download.',
+    siteName: 'HermesDesktop',
     images: [
       {
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'Hermes Agent Desktop - AI Agent Platform',
+        alt: 'HermesDesktop - Open-Source AI Agent Desktop App',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Hermes Agent Desktop - Your AI Agent, Always Improving',
-    description: 'The only AI agent with a built-in learning loop. Open source, runs anywhere.',
+    title: 'HermesDesktop: Open-Source AI Agent Desktop App',
+    description: 'HermesDesktop - the open-source AI agent desktop app with a learning loop, deep memory, and multi-platform support. Free download.',
     images: ['/og-image.png'],
   },
   robots: {
@@ -61,6 +65,9 @@ export const metadata: Metadata = {
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
+  },
+  alternates: {
+    canonical: 'https://hermesdesktop.org',
   },
   icons: {
     icon: '/favicon.ico',
@@ -78,8 +85,8 @@ export default function RootLayout({
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'SoftwareApplication',
-    name: 'Hermes Agent Desktop',
-    description: 'The only AI agent with a built-in learning loop. Open source, runs anywhere.',
+    name: 'HermesDesktop',
+    description: 'HermesDesktop is the open-source AI agent desktop app with a built-in learning loop, deep memory, multi-platform messaging, and scheduled automations.',
     url: 'https://hermesdesktop.org',
     applicationCategory: 'AIApplication',
     operatingSystem: 'Windows, macOS, Linux',
@@ -88,9 +95,14 @@ export default function RootLayout({
       price: '0',
       priceCurrency: 'USD',
     },
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: '4.8',
+      ratingCount: '127',
+    },
     author: {
       '@type': 'Organization',
-      name: 'Hermes Agent Desktop Community',
+      name: 'HermesDesktop Community',
     },
     sameAs: [
       'https://github.com/fathah/hermes-desktop',

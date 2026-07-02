@@ -72,7 +72,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.1 }}
           className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white mb-6 leading-tight"
         >
-          Your AI agent.
+          HermesDesktop.
           <br />
           <span className="gradient-text">Always improving.</span>
         </motion.h1>
@@ -84,7 +84,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-lg sm:text-xl md:text-2xl text-gray-300 mb-4 max-w-3xl mx-auto leading-relaxed"
         >
-          The only agent with a{' '}
+          The open-source AI agent desktop app with a{' '}
           <span className="text-brand-400 font-semibold">built-in learning loop</span>. It creates skills from experience, improves them during use, and builds a deepening model of who you are across sessions.
         </motion.p>
 
@@ -94,7 +94,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="text-base text-gray-500 mb-10 max-w-2xl mx-auto"
         >
-          A community-maintained desktop companion for the next generation of AI agents
+          Free download for Windows, macOS & Linux · Supports OpenAI, Anthropic, Ollama & more
         </motion.p>
 
         {/* CTA Buttons */}

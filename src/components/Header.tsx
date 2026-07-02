@@ -38,7 +38,7 @@ export default function Header() {
               H
             </div>
             <span className="text-white font-bold text-xl hidden sm:block">
-              Hermes Agent <span className="gradient-text">Desktop</span>
+              Hermes<span className="gradient-text">Desktop</span>
             </span>
           </Link>
 

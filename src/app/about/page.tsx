@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'About | Hermes Agent Desktop',
-  description: 'Learn about Hermes Agent Desktop - the open source AI agent platform built by the community.',
+  title: 'About HermesDesktop – Open Source AI Agent Project',
+  description: 'Learn about HermesDesktop, the community-driven open-source AI agent desktop project. Built for autonomous workflows, deep memory, and multi-platform AI automation.',
 };
 
 export default function AboutPage() {

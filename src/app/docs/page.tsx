@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Documentation | Hermes Agent Desktop',
-  description: 'Hermes Agent Desktop documentation - getting started, API reference, and guides.',
+  title: 'HermesDesktop Documentation – AI Agent Setup & API Guide',
+  description: 'HermesDesktop documentation: installation guides, API reference, skill creation tutorials, and configuration for OpenRouter, OpenAI, Anthropic, Ollama and local LLM providers.',
 };
 
 export default function DocsPage() {

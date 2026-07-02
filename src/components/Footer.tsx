@@ -58,11 +58,11 @@ export default function Footer() {
                 H
               </div>
               <span className="text-white font-bold text-xl">
-                Hermes Agent <span className="gradient-text">Desktop</span>
+                Hermes<span className="gradient-text">Desktop</span>
               </span>
             </Link>
             <p className="text-sm text-gray-400 leading-relaxed">
-              The autonomous agent platform with built-in learning, deep memory, and multi-platform connectivity. Free, open source, and runs anywhere.
+              HermesDesktop is the open-source AI agent desktop app with a built-in learning loop, deep memory, and multi-platform connectivity. Free download.
             </p>
             <div className="flex gap-3">
               {socialLinks.map((link) => (
@@ -138,7 +138,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-sm text-gray-500">
-            © 2026 Hermes Agent Desktop. Open source under the MIT license.
+            © 2026 HermesDesktop. Open source under the MIT license.
           </p>
           <div className="flex gap-6">
             <Link href="/terms" className="text-sm text-gray-500 hover:text-brand-400 transition-colors">

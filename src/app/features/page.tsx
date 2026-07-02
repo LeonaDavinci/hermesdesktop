@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Features | Hermes Agent Desktop',
-  description: 'Explore all features of Hermes Agent Desktop - the AI agent platform with built-in learning loop, deep memory, and multi-platform connectivity.',
+  title: 'HermesDesktop Features – AI Agent with Learning Loop & Deep Memory',
+  description: 'Explore HermesDesktop features: self-improving AI skills, deep cross-session memory, multi-platform messaging (Telegram, Discord, Slack), scheduled automations, and 14 built-in toolsets.',
 };
 
 export default function FeaturesPage() {

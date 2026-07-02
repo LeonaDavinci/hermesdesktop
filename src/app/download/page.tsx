@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Download | Hermes Agent Desktop',
-  description: 'Download Hermes Agent Desktop for Windows. Open source AI agent platform.',
+  title: 'Download HermesDesktop – Free AI Agent Desktop for Windows',
+  description: 'Download HermesDesktop v0.7.2 for Windows – free, open-source AI agent desktop app. Portable EXE, no installation needed. Supports OpenAI, Anthropic, Ollama & local LLMs.',
 };
 
 export default function DownloadPage() {

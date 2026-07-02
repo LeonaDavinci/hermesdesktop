@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Preview | Hermes Agent Desktop',
-  description: 'Preview Hermes Agent Desktop in action - see the AI agent platform demo.',
+  title: 'HermesDesktop Demo – See the AI Agent Desktop in Action',
+  description: 'Watch HermesDesktop in action: live AI agent demos, skill creation, multi-platform messaging, scheduled automations, and deep memory recall across sessions.',
 };
 
 export default function PreviewPage() {
