@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/api/', '/admin/'],
     },
-    sitemap: 'https://hermesdesktop.org/sitemap.xml',
+    sitemap: 'https://www.hermesdesktop.app/sitemap.xml',
   };
 }

@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next';
 
-const baseUrl = 'https://hermesdesktop.org';
+const baseUrl = 'https://www.hermesdesktop.app';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [

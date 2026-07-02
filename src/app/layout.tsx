@@ -32,11 +32,11 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://hermesdesktop.org'),
+  metadataBase: new URL('https://www.hermesdesktop.app'),
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://hermesdesktop.org',
+    url: 'https://www.hermesdesktop.app',
     title: 'HermesDesktop: Open-Source AI Agent Desktop App',
     description: 'HermesDesktop is the open-source AI agent desktop app with a built-in learning loop, deep memory, multi-platform messaging, and scheduled automations. Free download.',
     siteName: 'HermesDesktop',
@@ -67,7 +67,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: 'https://hermesdesktop.org',
+    canonical: 'https://www.hermesdesktop.app',
   },
   icons: {
     icon: '/favicon.ico',
@@ -87,7 +87,7 @@ export default function RootLayout({
     '@type': 'SoftwareApplication',
     name: 'HermesDesktop',
     description: 'HermesDesktop is the open-source AI agent desktop app with a built-in learning loop, deep memory, multi-platform messaging, and scheduled automations.',
-    url: 'https://hermesdesktop.org',
+    url: 'https://www.hermesdesktop.app',
     applicationCategory: 'AIApplication',
     operatingSystem: 'Windows, macOS, Linux',
     offers: {

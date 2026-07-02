@@ -9,7 +9,7 @@ const navigation = [
   { name: 'About', href: '/about' },
   { name: 'Preview', href: '/preview' },
   { name: 'Docs', href: '/docs' },
-  { name: 'Registry', href: 'https://registry.hermesdesktop.org', external: true },
+  { name: 'Registry', href: 'https://registry.hermesdesktop.app', external: true },
 ];
 
 export default function Header() {
