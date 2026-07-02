@@ -104,8 +104,8 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
-          <Link
-            href="/download"
+          <a
+            href="https://github.com/fathah/hermes-desktop/releases/download/v0.7.2/hermes-desktop-0.7.2-portable.exe"
             className="group relative px-8 py-4 bg-gradient-to-r from-brand-500 to-brand-600 hover:from-brand-600 hover:to-brand-700 text-white font-semibold rounded-2xl shadow-lg shadow-brand-500/50 hover:shadow-brand-500/75 transition-all duration-300 transform hover:scale-105"
           >
             <span className="relative z-10 flex items-center gap-2">
@@ -114,7 +114,7 @@ export default function Hero() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
               </svg>
             </span>
-          </Link>
+          </a>
 
           <Link
             href="/docs"

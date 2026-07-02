@@ -7,13 +7,13 @@ const installCommands = {
   mac: {
     name: 'macOS / Linux / WSL2',
     icon: '🍎',
-    install: `curl -fsSL https://raw.githubusercontent.com/hermesdesktop/main/scripts/install.sh | bash`,
+    install: `curl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh | bash`,
     after: `source ~/.bashrc && hermes`,
   },
   win: {
     name: 'Windows (PowerShell)',
     icon: '🪟',
-    install: `irm https://hermesdesktop.org/install.ps1 | iex`,
+    install: `iex (irm https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.ps1)`,
     after: `hermes`,
   },
 };

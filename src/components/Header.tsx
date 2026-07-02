@@ -61,7 +61,7 @@ export default function Header() {
           {/* GitHub Button */}
           <div className="flex items-center gap-3">
             <a
-              href="https://github.com/hermesdesktop"
+              href="https://github.com/fathah/hermes-desktop"
               target="_blank"
               rel="noopener noreferrer"
               className="hidden sm:flex items-center gap-2 px-4 py-2 bg-white/5 hover:bg-white/10 border border-white/10 hover:border-brand-500/50 rounded-xl text-sm text-gray-300 hover:text-white transition-all duration-300 group"

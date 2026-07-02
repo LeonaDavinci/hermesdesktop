@@ -50,7 +50,6 @@ export const metadata: Metadata = {
     title: 'Hermes Agent Desktop - Your AI Agent, Always Improving',
     description: 'The only AI agent with a built-in learning loop. Open source, runs anywhere.',
     images: ['/og-image.png'],
-    creator: '@hermesdesktop',
   },
   robots: {
     index: true,
@@ -94,9 +93,8 @@ export default function RootLayout({
       name: 'Hermes Agent Desktop Community',
     },
     sameAs: [
-      'https://github.com/hermesdesktop',
+      'https://github.com/fathah/hermes-desktop',
       'https://discord.gg/hermesdesktop',
-      'https://twitter.com/hermesdesktop',
     ],
   };
 
