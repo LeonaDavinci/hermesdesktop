@@ -37,7 +37,7 @@ export default function Header() {
             <img
               src="/logo-mark.png"
               alt="HermesDesktop"
-              className="h-9 w-9 sm:h-10 sm:w-10 rounded-xl group-hover:scale-110 transition-transform duration-300 drop-shadow-[0_0_12px_rgba(168,85,247,0.45)]"
+              className="h-9 w-9 sm:h-10 sm:w-10 rounded-xl group-hover:scale-110 transition-transform duration-300 drop-shadow-[0_0_12px_rgba(249,115,22,0.45)]"
             />
             <span className="text-white font-bold text-xl hidden sm:block tracking-tight">
               Hermes<span className="gradient-text">Desktop</span>

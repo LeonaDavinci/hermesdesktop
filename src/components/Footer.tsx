@@ -57,7 +57,7 @@ export default function Footer() {
               <img
                 src="/logo-mark.png"
                 alt="HermesDesktop"
-                className="h-10 w-10 rounded-xl drop-shadow-[0_0_10px_rgba(168,85,247,0.4)]"
+                className="h-10 w-10 rounded-xl drop-shadow-[0_0_10px_rgba(249,115,22,0.4)]"
               />
               <span className="text-white font-bold text-xl tracking-tight">
                 Hermes<span className="gradient-text">Desktop</span>
