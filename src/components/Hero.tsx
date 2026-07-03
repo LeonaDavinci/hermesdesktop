@@ -124,6 +124,26 @@ export default function Hero() {
           </Link>
         </motion.div>
 
+        {/* Sibling product link */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.5 }}
+          className="mt-6"
+        >
+          <p className="text-sm text-gray-500">
+            Prefer a cloud-based agent studio?{' '}
+            <a
+              href="https://hermes-agent.nousresearch.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-orange-400 hover:text-orange-300 font-medium underline decoration-orange-400/30 hover:decoration-orange-400 transition-colors"
+            >
+              Try Hermes Studio →
+            </a>
+          </p>
+        </motion.div>
+
         {/* Stats */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
