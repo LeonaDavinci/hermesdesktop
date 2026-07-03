@@ -9,7 +9,6 @@ const navigation = [
   { name: 'About', href: '/about' },
   { name: 'Preview', href: '/preview' },
   { name: 'Docs', href: '/docs' },
-  { name: 'Registry', href: 'https://registry.hermesdesktop.app', external: true },
 ];
 
 export default function Header() {
@@ -50,8 +49,6 @@ export default function Header() {
               <Link
                 key={item.name}
                 href={item.href}
-                target={item.external ? '_blank' : undefined}
-                rel={item.external ? 'noopener noreferrer' : undefined}
                 className="px-4 py-2 text-sm font-medium text-gray-300 hover:text-white rounded-lg hover:bg-white/5 transition-all duration-300 relative group"
               >
                 {item.name}
@@ -109,7 +106,6 @@ export default function Header() {
                   key={item.name}
                   href={item.href}
                   onClick={() => setMobileMenuOpen(false)}
-                  target={item.external ? '_blank' : undefined}
                   className="block px-4 py-3 text-base font-medium text-gray-300 hover:text-white hover:bg-white/5 rounded-xl transition-all duration-300"
                 >
                   {item.name}
