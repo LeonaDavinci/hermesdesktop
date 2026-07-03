@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     default: 'HermesDesktop Studio: Open-Source AI Agent Desktop App Studio',
     template: '%s | HermesDesktop Studio',
   },
-  description: 'HermesDesktop Studio is the open-source AI agent desktop app and agent studio with a built-in learning loop, deep cross-session memory, multi-platform messaging, and scheduled automations. Also explore Hermes Studio for cloud-based agent workflows. Download free for Windows, macOS & Linux.',
+  description: 'HermesDesktop Studio is the open-source AI agent desktop app and agent studio with a built-in learning loop, deep cross-session memory, multi-platform messaging, and scheduled automations. Also explore Hermes Studio (local) and Hermes Studio Playground (cloud). Download free for Windows, macOS & Linux.',
   keywords: [
     'hermesdesktop', 'HermesDesktop', 'hermes desktop', 'hermes desktop app',
     'hermes studio', 'Hermes Studio', 'agent studio', 'AI agent studio',
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: 'https://www.hermesdesktop.app',
     title: 'HermesDesktop Studio: Open-Source AI Agent Desktop App Studio',
-    description: 'HermesDesktop Studio is the open-source AI agent desktop app and agent studio with a built-in learning loop, deep memory, multi-platform messaging, and scheduled automations. Explore Hermes Studio for cloud agent workflows. Free download.',
+    description: 'HermesDesktop Studio is the open-source AI agent desktop app and agent studio with a built-in learning loop, deep memory, multi-platform messaging, and scheduled automations. Explore Hermes Studio (local) and Hermes Studio Playground (cloud). Free download.',
     siteName: 'HermesDesktop Studio',
     images: [
       {
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'HermesDesktop Studio: Open-Source AI Agent Desktop App Studio',
-    description: 'HermesDesktop Studio - the open-source AI agent desktop app and agent studio with a learning loop, deep memory, and multi-platform support. Explore Hermes Studio for cloud workflows. Free download.',
+    description: 'HermesDesktop Studio - the open-source AI agent desktop app and agent studio with a learning loop, deep memory, and multi-platform support. Explore Hermes Studio (local) and Playground (cloud). Free download.',
     images: ['/og-image.png'],
   },
   robots: {
@@ -110,6 +110,7 @@ export default function RootLayout({
       'https://github.com/fathah/hermes-desktop',
       'https://discord.gg/hermesdesktop',
       'https://hermes-agent.nousresearch.com/',
+      'https://studio.hermes-studio.com/',
     ],
   };
 
