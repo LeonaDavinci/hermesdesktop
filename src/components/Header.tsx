@@ -33,11 +33,13 @@ export default function Header() {
       <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 group">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-brand-500 to-accent-pink flex items-center justify-center text-white font-bold text-lg shadow-lg shadow-brand-500/50 group-hover:scale-110 transition-transform duration-300">
-              H
-            </div>
-            <span className="text-white font-bold text-xl hidden sm:block">
+          <Link href="/" className="flex items-center gap-2 group" aria-label="HermesDesktop home">
+            <img
+              src="/logo-mark.png"
+              alt="HermesDesktop"
+              className="h-9 w-9 sm:h-10 sm:w-10 rounded-xl group-hover:scale-110 transition-transform duration-300 drop-shadow-[0_0_12px_rgba(168,85,247,0.45)]"
+            />
+            <span className="text-white font-bold text-xl hidden sm:block tracking-tight">
               Hermes<span className="gradient-text">Desktop</span>
             </span>
           </Link>
