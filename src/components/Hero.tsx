@@ -84,7 +84,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-lg sm:text-xl md:text-2xl text-gray-300 mb-4 max-w-3xl mx-auto leading-relaxed"
         >
-          The open-source AI agent desktop app with a{' '}
+          The official open-source AI agent desktop app with a{' '}
           <span className="text-brand-400 font-semibold">built-in learning loop</span>. It creates skills from experience, improves them during use, and builds a deepening model of who you are across sessions.
         </motion.p>
 

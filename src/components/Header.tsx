@@ -7,6 +7,9 @@ import { motion, AnimatePresence } from 'framer-motion';
 const navigation = [
   { name: 'Features', href: '/#features' },
   { name: 'About', href: '/about' },
+  { name: 'Community', href: '/community' },
+  { name: 'Guide', href: '/guide' },
+  { name: 'Reviews', href: '/reviews' },
   { name: 'Preview', href: '/preview' },
   { name: 'Docs', href: '/docs' },
 ];
