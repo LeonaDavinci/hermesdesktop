@@ -11,7 +11,7 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: {
-    default: 'HermesDesktop Studio: Open-Source AI Agent Desktop App Studio',
+    default: 'HermesDesktop Studio: Open-Source AI Agent Desktop App Studio (Official)',
     template: '%s | HermesDesktop Studio',
   },
   description: 'HermesDesktop Studio is the official open-source AI agent desktop app and agent studio with a built-in learning loop, deep cross-session memory, multi-platform messaging, and scheduled automations. Also explore Hermes Studio (local) and Hermes Studio Playground (cloud). Download free for Windows, macOS & Linux.',
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://www.hermesdesktop.app',
-    title: 'HermesDesktop Studio: Open-Source AI Agent Desktop App Studio',
+    title: 'HermesDesktop Studio: Open-Source AI Agent Desktop App Studio (Official)',
     description: 'HermesDesktop Studio is the official open-source AI agent desktop app and agent studio with a built-in learning loop, deep memory, multi-platform messaging, and scheduled automations. Explore Hermes Studio (local) and Hermes Studio Playground (cloud). Free download.',
     siteName: 'HermesDesktop Studio',
     images: [
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'HermesDesktop Studio: Open-Source AI Agent Desktop App Studio',
+    title: 'HermesDesktop Studio: Open-Source AI Agent Desktop App Studio (Official)',
     description: 'HermesDesktop Studio - the official open-source AI agent desktop app and agent studio with a learning loop, deep memory, and multi-platform support. Explore Hermes Studio (local) and Playground (cloud). Free download.',
     images: ['/og-image.png'],
   },
